@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: goldenrod;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  background-color: blue;
+}
+
+.navbar .navlist {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  background-color: crimson;
+  list-style-type: none;
+  align-items: center;
+}
+
+.image {
+  background-color: darkgreen;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  background-color: aqua;
+  justify-content: center;
+}
+
+.footer {
+  background-color: fuchsia;
+  align-content: flex-end;
+}
+
+.search {
+  background-color: chartreuse;
+}
